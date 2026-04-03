@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { MapPin, Calendar, Briefcase, GraduationCap } from 'lucide-react'
-import { Button } from '@/components/ui/Button'
 
 const About = () => {
   return (

@@ -1,8 +1,6 @@
 import { motion } from 'framer-motion'
-import { useTheme } from '@/context/ThemeContext'
 import { Button } from '@/components/ui/Button'
 import { Download, Mail } from 'lucide-react'
-import { projects } from '@/data/projects'
 
 const GithubIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -20,8 +18,6 @@ const LinkedinIcon = ({ className }: { className?: string }) => (
 )
 
 const Hero = () => {
-  const { isDark } = useTheme()
-
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-24">
       <div className="container mx-auto px-6 max-w-6xl">

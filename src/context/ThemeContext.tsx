@@ -1,5 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react'
-import { cn } from '@/utils/cn'
+import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
 
 interface ThemeContextType {
   isDark: boolean
